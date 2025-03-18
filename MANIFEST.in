@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nutrirx *.css
+recursive-include nutrirx *.csv
+recursive-include nutrirx *.html
+recursive-include nutrirx *.ico
+recursive-include nutrirx *.js
+recursive-include nutrirx *.json
+recursive-include nutrirx *.md
+recursive-include nutrirx *.png
+recursive-include nutrirx *.py
+recursive-include nutrirx *.svg
+recursive-include nutrirx *.txt
+recursive-exclude nutrirx *.pyc
