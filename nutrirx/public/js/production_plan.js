@@ -19,7 +19,7 @@ function set_current_stock(frm, cdt, cdn) {
     let d = locals[cdt][cdn];
     if (d.item_code && d.from_warehouse) {
         frappe.call({
-            method: "nutrirx.api.get_balance_qty",
+            method: "nutrirx.api.api.get_balance_qty",
             args: {
                 item_code: d.item_code,
                 warehouse: d.from_warehouse
