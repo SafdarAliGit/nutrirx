@@ -118,13 +118,11 @@ doctype_js = {"Production Plan" : "public/js/production_plan.js"}
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"Production Plan": {
+		"on_update": "nutrirx.api.api.custom_on_update",
+	}
+}
 
 # Scheduled Tasks
 # ---------------
